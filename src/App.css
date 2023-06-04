@@ -1,0 +1,87 @@
+body{
+  margin: 0;
+  background-color: black;
+}
+.Navbar{
+  background-color: black;
+  color: rgb(230, 227, 227);
+  margin-bottom: 20px;
+  border-bottom: 1px solid rgb(150, 144, 144);
+  padding: 10px;
+}
+.home-container {
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+
+.post-card {
+  background-color: rgb(241, 239, 239);
+  margin: 10px;
+  padding: 20px;
+  width: 15%;
+  border-radius: 5px;
+  box-shadow: 1px 2px 5px 2px rgb(180, 180, 178);
+}
+
+.post-card img {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+  box-shadow: 2px 2px 2px 2px gray;
+}
+
+.post-card h5 {
+  margin-top: 0;
+}
+
+.post-card h5 {
+  margin-bottom: 10px;
+}
+.post-card span{
+  color: rgb(177, 40, 16);
+}
+.post-card b{
+  color: rgb(20, 134, 96);
+}
+.post-link {
+  color: rgb(65, 32, 185);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.read-more-link {
+  color: green;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 20px;
+}
+
+.loader {
+  border: 6px solid #f3f3f3;
+  border-top: 6px solid #3498db;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
